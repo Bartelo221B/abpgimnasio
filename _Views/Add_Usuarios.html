@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="overlay" onclick="toggleMenu()" ></div>
+    
+    <div class="background">
+
+    </div>
+    <header class="container-fluid">
+        <div class="cabecera row">
+            <div class="cabecera-background"></div>
+            <div class="cabecera-menu col-sm">
+                <img id="menu" onclick="toggleMenu()" class="menu-burguer" src="./Imgs/barritas.png" alt="Menu">
+            </div>
+            <div class="cabecera-title col-sm">
+                <h1>GIMNASIO</h1>
+            </div>
+            <div class="cabecera-social col-sm">
+                <div class="cabecera-social-sub">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <aside class="menu-wrapper sidebar">
+        <div id="leftside-navigation" class="nano">
+            <ul class="nano-content">
+            <li>
+                <div class="sect-user">
+                    <div class="user-img"></div>
+                    <div class="user-det">
+                        <h6>
+                            <span>Bienvenido</span>
+                            <span>Matthew Mcconaughey</span>
+                        </h6>
+                        <form action="">
+                            <button>Ver Perfil</button>
+                            <button>Cerrar sesion</button>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-actividades.html"><i class="fa fa-cogs"></i><span>Actividades</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-tablas.html"><i class="fa fa-table"></i><span>Tablas</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-ejercicios.html"><i class="fa fa fa-tasks"></i><span>Ejercicios</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-instalaciones.html"><i class="fa fa-bar-chart-o"></i><span>Instalaciones</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-permisos.html"><i class="fa fa-map-marker"></i><span>Permisos</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-usuarios.html"><i class="fa fa-text-height"></i><span>Usuarios</span></a>
+            </li>
+            <li class="sub-menu">
+                <a href="./consulta-reservas.html"><i class="fa fa-text-height"></i><span>Reservas</span></a>
+            </li>
+            <li class="sub-menu">
+                <a href="javascript:void(0);"><i class="fa fa-file"></i><span>Pages</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                <ul>
+                <li><a href="pages-blank.html">Blank Page</a>
+                </li>
+                <li><a href="pages-login.html">Login</a>
+                </li>
+                <li><a href="pages-sign-up.html">Sign Up</a>
+                </li>
+                <li><a href="pages-calendar.html">Calendar</a>
+                </li>
+                <li><a href="pages-timeline.html">Timeline</a>
+                </li>
+                <li><a href="pages-404.html">404</a>
+                </li>
+                <li><a href="pages-500.html">500</a>
+                </li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </aside>
+
+    <section class="main-section container">
+        <div class="row align-items-center">
+            <div class="section-title-pos">
+                <h4 class="section-title">
+                    <span>
+                        Añade un
+                    </span>
+                    <span>
+                        Usuario
+                    </span>
+                </h4>
+            </div>
+        </div> 
+        <div class="main-list row align-items-center">
+            <div class="main-list-background">
+                
+            </div>
+            <div class="main-list">
+                <form class="main-list-form" action="">
+                    <div class="form-group-items">
+                        <div class="form-group">
+                            <label class="form-label" for="login">Nombre</label>
+                            <input type="text" class="form-control-med form-control" maxlength="45"  id="login1" name="login"tabindex="1">
+                        </div>   
+                        <div class="form-group">
+                            <label class="form-label" for="login">Apellidos</label>
+                            <input type="text" class="form-control-med form-control" maxlength="60" id="login1" name="login"tabindex="1">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group-items">
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="text" class="form-control-med form-control" maxlength="45" id="email1" name="email" tabindex="1" >
+                        </div>       
+                        <div class="form-group">
+                            <label class="form-label" for="login">Password</label>
+                            <input type="password" class="form-control-med form-control" maxlength="45" id="login1" name="login"tabindex="1">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="login">Telefono</label>
+                        <input type="text" class="form-control" maxlength="9" id="login1" name="login" tabindex="1">
+                    </div>     
+                    <div class="form-item-center form-group">
+                        <label class="form-label">Tipo</label>
+                        <select onchange="diffForm(3)" name="tipo" id="select-form">
+                            <option value=""></option>
+                            <option value="opt1">Administrador</option>
+                            <option value="opt2">Deportista</option>
+                            <option value="opt3">Entrenador</option>
+                        </select>
+                    </div>
+                    <div class="form-item-center form-group-items">    
+                        <div class="hide form-group-items" id="form1">
+                            <div class="form-group">
+                                <label class="form-label" for="curso">Hora Entrada</label>
+                                <input type="time" class="form-control"  id="grade1" name="curso" Tabindex="1">
+                            </div> 
+                            <div class="form-group">
+                                <label class="form-label" for="titulacion">Hora Salida</label>
+                                <input type="time" class="form-control" id="title1" name="titulacion" tabindex="1" >
+                            </div>
+                        </div>                               
+                    </div>
+                    <div class="form-item-center form-group-items">
+                        <div class="hide form-group-items" id="form2">
+                            <div class="form-group">
+                                <label class="form-label" for="login">Peso</label>
+                                <input type="text" class="form-control" id="login1" name="login" tabindex="1">
+                            </div> 
+                            <div class="form-group">
+                                <label class="form-label" for="login">Altura</label>
+                                <input type="text" class="form-control" id="login1" name="login"  tabindex="1">
+                            </div> 
+                            <div class="form-group">
+                                <label class="form-label" for="login">Edad</label>
+                                <input type="text" class="form-control"  id="login1" name="login" tabindex="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item-center form-group-items">
+                        <div class="hide form-group-items" id="form3">
+                            <div class="form-group">
+                                <label class="form-label" for="curso">Hora Entrada</label>
+                                <input type="time" class="form-control" size="4" id="grade1" name="curso" Tabindex="1">
+                            </div> 
+                            <div class="form-group">
+                                <label class="form-label" for="titulacion">Hora Salida</label>
+                                <input type="time" class="form-control" id="title1" name="titulacion" tabindex="1" >
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <button type="submit" class="boton-env">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                </form>      
+                
+            </div>
+        </div> 
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="./Js/jquery-3.2.1.min.js"></script>
+    <script src="https://use.fontawesome.com/79de714ab4.js"></script>
+    <script src="./Js/main.js"></script>
+</body>
+</html>
